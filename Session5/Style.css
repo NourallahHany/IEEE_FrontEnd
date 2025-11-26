@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #fff0f5;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fac0d4;
+    color: white;
+}
+
+.header .logo img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+}
+
+
+.content{
+    flex: 3;
+}
+
+
+.sidebar{
+    flex: 1;
+    background: #fac0d4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.section{
+    background: #ffe6f0;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section h1{
+    margin-bottom: 10px;
+}
+
+.section .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fac0d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card{
+    background: #fff0f5;
+    padding: 15px;
+    border-radius: 8px;
+    width: calc(50% - 10px);
+}
+
+.product-card img{
+    width: 100px;
+    height: 150px;;
+    border-radius: 8px;
+}
+
+.actions{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.actions button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions .add{
+    background: #fac0d4;
+    color: white;
+}
+
+.actions .view{
+    background: #ddd;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #fac0d4;
+    color: white;
+    flex-wrap: wrap;
+    gap: 10px;
+}
